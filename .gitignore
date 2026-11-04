@@ -1,0 +1,61 @@
+# Local agent and machine configuration
+.brain
+.agents/
+.codex/
+.aws/
+
+# Private source material (contains member IDs/photos)
+docs/private/
+
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+
+# Node / Vite
+node_modules/
+frontend/dist/
+coverage/
+*.tsbuildinfo
+
+# Generated data and model artifacts
+data/processed/*
+!data/processed/.gitkeep
+data/runtime/
+artifacts/
+models/
+
+# Logs and temporary files
+logs/
+*.log
+*.tmp
+*.temp
+.cache/
+
+# Notebooks, editors, and operating systems
+.ipynb_checkpoints/
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
